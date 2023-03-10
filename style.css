@@ -1,0 +1,444 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+section {
+    padding: 100px 0;
+    background: #282d6b;
+}
+
+.section_title {
+    margin-bottom: 30px;
+}
+
+.section.title h2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section.title h2:hover {
+    background-color: #24CAAC;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(rgb(2, 2, 2), rgb(189, 182, 182));
+    border-bottom: 2px solid rgba(238, 238, 238, 0.2);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 0 0 45px rgb(233, 230, 230);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.navbar .logo h2 a {
+    font-size: 21px;
+    color: white;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.header .nav-links {
+    display: flex;
+}
+
+
+.header .nav-links li a {
+    margin-left: 15px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-links li a:hover {
+    background-color: #24CAAC;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+/*Anasayfa*/
+
+section .inner-anaSayfa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+
+.child-anasayfa {
+    flex-basis: 39%;
+}
+
+.child-anasayfa h1 {
+    font-size: 40px;
+    color: #24CAAC;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.span-not {
+    color: rgb(236, 45, 157);
+}
+
+.child-anasayfa p {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    background: #24CAAC;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #24CAAC;
+    transition: all .4s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.btn:hover {
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+/*yazılımlar*/
+
+.yazilimlar {
+    display: block;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 3rem;
+    width: 100%;
+    transition: 0.4s ease;
+    box-shadow: 0 0 20px rgb(189, 182, 182);
+    border-radius: 45px;
+}
+
+.section-title:hover {
+    background: #24CAAC;
+    border-radius: 45px;
+}
+
+.inner-software {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white;
+}
+
+.inner-sofwware-child {
+    display: inline-block;
+    flex-basis: 31%;
+    background: rgba(55, 66, 80, 0.281);
+    border-radius: 35px;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 35px rgb(189, 182, 182);
+}
+
+.inner-sofwware-child:hover {
+    border: 2px solid #24CAAC;
+}
+
+.inner-sofwware-child .icons {
+    width: 75px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.inner-sofwware-child .icons .icons-image {
+    height: 100%;
+    background-size: cover;
+}
+
+.inner-sofwware-child h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #24CAAC;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.inner-sofwware-child p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+}
+
+/* Sertifikalar */
+
+.inner-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+.child-courses {
+    flex-basis: 24%;
+    color: white;
+    padding: 20px 10px;
+    border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(189, 182, 182);
+}
+
+.child-courses:hover {
+    border: 2px solid #24CAAC;
+}
+
+.child-courses .detail {
+    display: inline-flex;
+    justify-content: space-between;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.child-courses .detail p {
+    font-size: 18px;
+}
+
+.child-courses .detail ul {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.child-courses .detail ul li {
+    color: gold;
+}
+
+.child-courses h2 {
+    font-size: 30px;
+    color: #24CAAC;
+}
+
+/*Basarilar*/
+
+.inner-achivement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.child-achivement {
+    flex-basis: 40%;
+}
+
+.child-achivement img {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 45px rgb(189, 182, 182);
+}
+
+.child-achivement2 {
+    flex-basis: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single-detail {
+    flex-basis: 48%;
+    border-radius: 15px;
+    box-shadow: 0 0 45px rgb(189, 182, 182);
+    width: 270px;
+    height: 135px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 25px;
+    padding-top: 40px;
+    transition: 0.4 ease-in-out;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.single-detail:hover {
+    transform: scale(1.03);
+}
+
+#sd1 {
+    background: #EAA023;
+}
+
+#sd2 {
+    background: #E91E63;
+}
+
+#sd3 {
+    background: #24CAAC;
+}
+
+#sd4 {
+    background: #2F363E;
+}
+
+/*Hakkımda*/
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-us-child {
+    flex-basis: 45%;
+    margin-bottom: 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 12px;
+}
+
+.about-us-child:hover {
+    box-shadow: 0 0 30px rgb(189, 182, 182);
+}
+
+.about-img {
+    width: 80px;
+    margin-bottom: 5px;
+
+}
+
+.about-img img {
+    border-radius: 50%;
+}
+
+.person {
+    color: #24CAAC;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.person:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    padding-left: 10px;
+}
+
+/*İletişim*/
+
+#iletisim {
+    height: 100vh;
+}
+
+.inner-contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.contact-child {
+    flex-basis: 38%;
+    width: 75%;
+    height: 80%;
+}
+
+.contact-child img {
+    box-shadow: 0 0 30px rgb(189, 182, 182);
+    border-radius: 15px;
+}
+
+.contact-child img:hover {
+    border: 2px solid #24CAAC;
+}
+
+.contact-child form {
+    display: block;
+    box-shadow: 0 0 30px rgb(189, 182, 182);
+    background: #2F363E;
+    text-align: center;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0 auto;
+}
+
+.contact-child form input,
+textarea {
+    width: 80%;
+    background: #24292d;
+    border-radius: 15px;
+    border: none;
+    margin: 10px;
+    color: white;
+    padding: 8px 25px;
+    transition: all .4s ease;
+}
+
+.contact-child .btn-form {
+    background: #24CAAC;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 80%;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #24CAAC;
+    transition: all .4s ease;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.contact-child .btn-form:hover {
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+/*finish good luck;)*/
